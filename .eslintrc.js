@@ -96,7 +96,7 @@ module.exports = {
     "no-implied-eval": 2, // disallow use of eval()-like methods
     "no-iterator": 2, // disallow usage of __iterator__ property
     "no-labels": 2, // disallow use of labeled statements
-    "no-lone-blocks": 2, // disallow unnecessary nested blocks
+    //"no-lone-blocks": 2, // disallow unnecessary nested blocks
     "no-loop-func": 2, // disallow creation of functions within loops
     "no-multi-spaces": 2, // disallow use of multiple spaces
     "no-multi-str": 2, // disallow use of multiline strings
@@ -213,7 +213,7 @@ module.exports = {
     // While the names of the rules may not match up with the JSHint/JSLint counterpart,
     // the functionality is the same.
     //
-    "max-depth": [2, 3], // specify the maximum depth that blocks can be nested (off by default)
+    //"max-depth": [2, 3], // specify the maximum depth that blocks can be nested (off by default)
     "max-len": [2, 100, 2], // specify the maximum length of a line in your program (off by default)
     "max-params": [2, 5], // limits the number of parameters that can be used in the function declaration. (off by default)
     "max-statements": 0, // specify the maximum number of statement allowed in a function (off by default)
