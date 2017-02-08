@@ -6,7 +6,7 @@ module.exports = {
     "es6": true
   },
 
-  
+
 
   "ecmaFeatures": {
     "arrowFunctions": true,
@@ -145,7 +145,7 @@ module.exports = {
     "no-undef-init": 2, // disallow use of undefined when initializing variables
     "no-undefined": 2, // disallow use of undefined variable (off by default)
     "no-unused-vars": 2, // disallow declaration of variables that are not used in the code
-    "no-use-before-define": 2, // disallow use of variables before they are defined
+    //"no-use-before-define": 2, // disallow use of variables before they are defined
 
     //
     //Stylistic Issues
@@ -178,7 +178,7 @@ module.exports = {
     "no-trailing-spaces": 1, // disallow trailing whitespace at the end of lines
     "no-underscore-dangle": 1, // disallow dangling underscores in identifiers
     "no-extra-parens": 1, // disallow wrapping of non-IIFE statements in parens
-    "one-var": [1, "never"], // allow just one var statement per function (off by default)
+    //"one-var": [1, "never"], // allow just one var statement per function (off by default)
     "operator-assignment": [1, "never"], // require assignment operator shorthand where possible or prohibit it entirely (off by default)
     "padded-blocks": [1, "never"], // enforce padding within blocks (off by default)
     "quote-props": [1, "as-needed"], // require quotes around object literal property names (off by default)
@@ -214,7 +214,7 @@ module.exports = {
     // the functionality is the same.
     //
     //"max-depth": [2, 3], // specify the maximum depth that blocks can be nested (off by default)
-    "max-len": [2, 100, 2], // specify the maximum length of a line in your program (off by default)
+    //"max-len": [2, 100, 2], // specify the maximum length of a line in your program (off by default)
     "max-params": [2, 5], // limits the number of parameters that can be used in the function declaration. (off by default)
     "max-statements": 0, // specify the maximum number of statement allowed in a function (off by default)
     "no-bitwise": 0, // disallow use of bitwise operators (off by default)

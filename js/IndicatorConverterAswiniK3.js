@@ -9,15 +9,11 @@ module.exports = function(convert)
 		throw Error('Not a number');
 	}
 	const fs = require('fs');
-// let input = fs.createReadStream('./inputdata/Indicators.csv');
 let rl = require('readline').createInterface({
 	input: fs.createReadStream('./inputdata/Indicators.csv'),
 	terminal: false
 });
-// let arr = [];
-// let arr1 = [];
 let arr3 = [];
-// let rural;
 let rural1 = [0, 0, 0, 0, 0];
 let urban1 = [0, 0, 0, 0, 0];
 let country = ['INDIA', 'CHINA', 'NEPAL', 'PAKISTAN', 'BHUTAN'];
